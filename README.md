@@ -1,17 +1,17 @@
 # 🌊 LiqueDeFi
 Cross-chain stablecoin smart routing and non-custodial liquidity management
 
-LiqueDeFi is an intelligent cross chain routing layer for stable coins. It automatically find the cheapest, fastest and safest path to move USDC or EURC across blockchains. Instead of users manually comparing bridges, gas fees, and liquidy, **LiqueDeFi does the thinking for you**.
+LiqueDeFi is an intelligent cross chain routing layer for stable coins. It automatically find the cheapest, fastest and safest path to move USDC or EURC across blockchains. Instead of users manually comparing bridges, gas fees, and liquidy, LiqueDeFi does everything.
 
 ---
 
 ## 🚨 The Problem
 
 Cross-chain stablecoin transfers today are:
-* ❌ **Expensive** — high gas + bridge fees
-* ❌ **Confusing** — dozens of bridges, each with different trade offs
-* ❌ **Risky** — wrapped assets, bridge liquidity risk
-* ❌ **Manual** — users guess instead of optimising
+* **Expensive** — high gas + bridge fees
+* **Confusing** — dozens of bridges, each with different trade offs
+* **Risky** — wrapped assets, bridge liquidity risk
+* **Manual** — users guess instead of optimising
 
 ---
 
@@ -59,9 +59,9 @@ Each route is treated as a graph path.
 
 For every candidate route, LiqueDeFi estimates:
 
-* ⛽ **Gas cost** on each chain involved
-* 🌉 **Protocol fees** (CCTP or Bridge Kit)
-* 🔁 **Number of transactions** required
+* **Gas cost** on each chain involved
+* **Protocol fees** (CCTP or Bridge Kit)
+* **Number of transactions** required
 
 **Total Cost Formula:**
 
